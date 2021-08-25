@@ -3,8 +3,12 @@
 // 3.  se sono dispari inserisco nell’array
 
 var listaNumeri = [];
-
     for (var i = 0; i < 6; i++){
     var numero = parseInt(prompt("Inserisci un numero"));
     console.log(numero);
 } 
+
+if(numero % 2 != 0){
+    listaNumeri.push(numero);
+}
+console.log(listaNumeri);
